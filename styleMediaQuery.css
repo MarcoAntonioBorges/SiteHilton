@@ -1,0 +1,15 @@
+@media only screen and (max-width: 400px) {
+    .imagem-principal {
+        margin-top: 20vw;
+    }
+
+    .imagem-principal figure {
+        width: 90vw;
+    }
+
+    .imagem-principal img {
+        width: 100%;
+        height: 60vh;
+
+    }
+}
