@@ -24,14 +24,15 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
     margin-top: 6vw;
     height: 100vh;
 }
 
-.imagem-principal img {
+.imagem-principal img,
+.imagem-principal video {
     width: 100%;
     height: 80vh;
     box-shadow: 1px 1px 20px black;
@@ -39,7 +40,7 @@ body {
 }
 
 figure.foto-legenda {
-    width: 70vw;
+    width: 30%;
     position: relative;
 }
 
@@ -160,11 +161,26 @@ figure.foto-legenda:hover figcaption {
 
 @media (max-width: 480px) {
     /* estilos aqui */
+    .imagem-principal {
+        justify-content: center;
+    }
     .portifolio .portifolio-galeria .img-portifolio {
         width: 100%;
         max-width: 100%;
     }
 }
+
+
+/*
+
+	padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+
+*/
 
 
 /* .portifolio {
