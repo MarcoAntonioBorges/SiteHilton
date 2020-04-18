@@ -158,9 +158,14 @@ figure.foto-legenda:hover figcaption {
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+
+/* Telefones em paisagem e abaixo */
+
+@media (max-width: 480px) {
+    /* estilos aqui */
     .portifolio .portifolio-galeria .img-portifolio {
         width: 100%;
+        max-width: 100%;
     }
 }
 
