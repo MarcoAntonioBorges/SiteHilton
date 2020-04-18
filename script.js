@@ -35,11 +35,5 @@ function formatarVideoPrincipal() {
     if (tam <= 480) {
         firstChild.remove();
         secondChild.remove();
-    } else {
-        let video = elementMain.children().get(0);
-        video.remove();
-        elementMain.append(firstChild);
-        elementMain.append(video);
-        elementMain.append(secondChild);
     }
 }
