@@ -10,7 +10,8 @@ body {
     border: none;
     /* background-image: url('img/planodefundo.jpg'); */
     background-color: #eee;
-    font-family: 'Montserrat', 'sans-serif';
+    /*font-family: 'Montserrat', 'sans-serif';*/
+    font-family: 'Handlee', cursive;
 }
 
 .ativado {
@@ -75,6 +76,10 @@ figure.foto-legenda:hover figcaption {
 
 .biografia .texto-biografia {
     padding: 50px;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
 }
 
 .portifolio {
@@ -106,6 +111,9 @@ figure.foto-legenda:hover figcaption {
     width: 100%;
     height: 395px;
     object-fit: cover;
+    background-color: rgba(51, 51, 51, 0.226) !important;
+    border: 1px solid rgba(51, 51, 51, 0.226) !important;
+    border-radius: 5px;
 }
 
 .portifolio .portifolio-galeria .img-portifolio figure {
