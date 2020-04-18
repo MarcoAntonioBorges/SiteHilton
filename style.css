@@ -158,6 +158,12 @@ figure.foto-legenda:hover figcaption {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    .portifolio .portifolio-galeria .img-portifolio {
+        width: 100%;
+    }
+}
+
 
 /* .portifolio {
     display: grid;
