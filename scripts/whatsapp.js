@@ -1,3 +1,13 @@
+var apiWhatsApp = "";
+$(document).ready(function() {
+    var tam = $(window).width();
+    if (tam <= 480) {
+        apiWhatsApp = "https://api.whatsapp.com/send?phone=+5511953172023&text=";
+    } else {
+        apiWhatsApp = "https://web.whatsapp.com/send?phone=+5511953172023&text=";
+    }
+});
+
 var messageModel = {
     nome: '',
     sobrenome: '',
@@ -28,5 +38,5 @@ $("#form-contato").submit(function(e) {
     preencherMessageModel(e.target);
 
     var textoFormatado = window.encodeURIComponent(montarMensagem(messageModel));
-    window.open(`https://web.whatsapp.com/send?phone=+5511953172023&text=${textoFormatado}`);
+    window.open(apiWhatsApp.concat(textoFormatado));
 });
