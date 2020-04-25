@@ -57,12 +57,8 @@
             <figure class="foto-legenda">
                 <img src="img/moldura10.jpeg" class="img-fluid" alt="Imagem principal do site">
                 <figcaption>
-                    <ul> TEXTO MELHOR
-                        <li> TESTE 1 </li>
-                        <li> TESTE 1 </li>
-                        <li> TESTE 1 </li>
-                        <li> TESTE 1 </li>
-                        <li> TESTE 1 </li>
+                    <ul>
+                        <li> Painel 3D </li>
                     </ul>
                 </figcaption>
             </figure>
@@ -72,12 +68,8 @@
             <figure class="foto-legenda">
                 <img src="img/moldura10.jpeg" class="img-fluid" alt="Imagem principal do site">
                 <figcaption>
-                    <ul> TEXTO MELHOR
-                        <li> TESTE 1 </li>
-                        <li> TESTE 1 </li>
-                        <li> TESTE 1 </li>
-                        <li> TESTE 1 </li>
-                        <li> TESTE 1 </li>
+                    <ul>
+                        <li> Painel 3D </li>
                     </ul>
                 </figcaption>
             </figure>
@@ -90,8 +82,8 @@
                     <h3 class="section-sub-title">Quem sou eu</h3>
                 </div>
             </div>
-            <p class="texto-biografia">Nome é um título de trabalho no nome da empresa, onde Nome o verbo de ação (por exemplo, coordena, conduz, treina, desenvolve ou cria) o que você faz (por exemplo, vídeos, livros, programas SaaS ou aplicativos para dispositivos móveis), incluindo
-                sub-nicho 1 ou tarefas diferentes que você faz, sub-nicho 2 e subnicho 3.Nome tem a realização 1 (por exemplo, trabalhou com grandes marcas, como, exibições em, ganhou prêmios XYZ) e realização 2, entre outras distinções no campo.</p>
+            <p class="texto-biografia">Meu nome é Hilton Lins Moura, tenho 35 anos. Moro em Embu das artes - Sp. Atuo em projetos de obras a 15 anos com foco em fundações em terra plenagem e perfuração de solo, e acabamento em geral. Estou cursando a faculdade de engenharia civil
+                para adiquirir melhor conhecimento. Apaixonado por obras!</p>
         </div>
 
         <div class="portifolio" id="portifolio">
@@ -105,42 +97,42 @@
                 <div class="img-portifolio">
                     <figure>
                         <img src="img/fundacao2.jpeg" class="img-fluid img-thumbnail" alt="imagem do portifolio">
-                        <figcaption>TEXTO DA LEGENDA DA IMAGEM</figcaption>
+                        <figcaption>Fundação</figcaption>
                     </figure>
                 </div>
 
                 <div class="img-portifolio">
                     <figure>
                         <img src="img/fundacao1.jpeg" class="img-fluid img-thumbnail" alt="imagem do portifolio">
-                        <figcaption>TEXTO DE LEGENDA IMAGEM</figcaption>
+                        <figcaption>Fundação</figcaption>
                     </figure>
                 </div>
 
                 <div class="img-portifolio">
                     <figure>
                         <img src="img/moldura1.jpeg" class="img-fluid img-thumbnail" alt="imagem do portifolio">
-                        <figcaption>TEXTO DE LEGENDA IMAGEM</figcaption>
+                        <figcaption>Painel 3D</figcaption>
                     </figure>
                 </div>
 
                 <div class="img-portifolio">
                     <figure>
                         <img src="img/moldura3.jpeg" class="img-fluid img-thumbnail" alt="imagem do portifolio">
-                        <figcaption>TEXTO DE LEGENDA IMAGEM</figcaption>
+                        <figcaption>Painel 3D</figcaption>
                     </figure>
                 </div>
 
                 <div class="img-portifolio">
                     <figure>
                         <img src="img/moldura2.jpeg" class="img-fluid img-thumbnail" alt="imagem do portifolio">
-                        <figcaption>TEXTO DE LEGENDA IMAGEM</figcaption>
+                        <figcaption>Painel 3D</figcaption>
                     </figure>
                 </div>
 
                 <div class="img-portifolio">
                     <figure>
                         <img src="img/moldura8.jpeg" class="img-fluid img-thumbnail" alt="imagem do portifolio">
-                        <figcaption>TEXTO DE LEGENDA IMAGEM</figcaption>
+                        <figcaption>Painel 3D</figcaption>
                     </figure>
                 </div>
 
@@ -156,18 +148,18 @@
             </div>
             <div class="row">
                 <div class="col-md-7 mb-5">
-                    <form action="#" class="p-5 bg-white">
+                    <form action="#" class="p-5 bg-white" id="form-contato">
 
                         <h2 class="h4 text-black mb-5">Formulário de Contato</h2>
 
                         <div class="row form-group">
                             <div class="col-md-6 mb-3 mb-md-0">
                                 <label class="text-black" for="fname">Nome</label>
-                                <input type="text" id="fname" class="form-control">
+                                <input type="text" id="fname" name="fname" class="form-control">
                             </div>
                             <div class="col-md-6">
                                 <label class="text-black" for="lname">Sobrenome</label>
-                                <input type="text" id="lname" class="form-control">
+                                <input type="text" id="lname" name="lname" class="form-control">
                             </div>
                         </div>
 
@@ -175,15 +167,15 @@
 
                             <div class="col-md-12">
                                 <label class="text-black" for="email">Email</label>
-                                <input type="email" id="email" class="form-control">
+                                <input type="email" id="email" name="email" class="form-control">
                             </div>
                         </div>
 
                         <div class="row form-group">
 
                             <div class="col-md-12">
-                                <label class="text-black" for="subject">Assunto</label>
-                                <input type="subject" id="subject" class="form-control">
+                                <label class="text-black" for="subject">Número de Celular</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Ex.: 119XXXXXXXX">
                             </div>
                         </div>
 
@@ -262,6 +254,7 @@
 
     <!-- NOSSOS IMPORTES DE SCRIPTS -->
     <script src="script.js"></script>
+    <script src="./scripts/whatsapp.js"></script>
 </body>
 
 </html>
