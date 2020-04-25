@@ -18,6 +18,10 @@ body {
     color: #D1A33D !important;
 }
 
+.list-style-type-none {
+    list-style-type: none;
+}
+
 
 /*formatção de imagens com legenda */
 
