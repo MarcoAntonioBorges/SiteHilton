@@ -39,4 +39,5 @@ $("#form-contato").submit(function(e) {
 
     var textoFormatado = window.encodeURIComponent(montarMensagem(messageModel));
     window.open(apiWhatsApp.concat(textoFormatado));
+    e.target.reset();
 });
