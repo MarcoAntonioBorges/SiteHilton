@@ -80,10 +80,12 @@ figure.foto-legenda:hover figcaption {
 
 .biografia .texto-biografia {
     padding: 50px;
-    font-family: 'Bad Script', cursive;
+    /*font-family: 'Bad Script', cursive;*/
+    font-family: 'Bai Jamjuree', sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-align: justify;
+    text-indent: 1.5em;
 }
 
 .portifolio {
