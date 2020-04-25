@@ -28,5 +28,5 @@ $("#form-contato").submit(function(e) {
     preencherMessageModel(e.target);
 
     var textoFormatado = window.encodeURIComponent(montarMensagem(messageModel));
-    window.open(`https://web.whatsapp.com/send?phone=++5511953172023&text=${textoFormatado}`);
+    window.open(`https://web.whatsapp.com/send?phone=+5511953172023&text=${textoFormatado}`);
 });
